@@ -8,6 +8,6 @@ The register $d011 is used to shift the vertical offset of the screen one pixel 
 
 ## Contents
 
-There is a C64 Studio Version in directory ```C64Studio```. The file ```scroll1.asm``` was the simple starting point. The file ```scroll2.asm``` is a more complex demo. With variable ```userasterirq``` set to 1, it will use the raster interrupt to sync with the screen refresh. With ```userasterirq``` set to 0, it will use a busy-wait-loop instead.
+There is a C64 Studio Version in directory [C64Studio](C64Studio). The file [scroll1.asm](C64Studio/scroll1.asm) was the simple starting point. The file [scroll2.asm](C64Studio/scroll2.asm) is a more complex demo. With variable ```userasterirq``` set to 1, it will use the raster interrupt to sync with the screen refresh. With ```userasterirq``` set to 0, it will use a busy-wait-loop instead.
 
-Directory ```TMP``` contains a simpler version with just a busy-wait-loop, which can be compiled directly on a real C64 with [Turbo Macro Pro](http://turbo.style64.org/).
+Directory [TMP](TMP) contains a simpler version with just a busy-wait-loop, which can be compiled directly on a real C64 with [Turbo Macro Pro](http://turbo.style64.org/).
