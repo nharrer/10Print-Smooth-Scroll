@@ -15,3 +15,5 @@ Directory [TMP](TMP) contains a simpler version with just a busy-wait-loop, whic
 ## Downloads
 
 [scroll-tmp.d64](https://github.com/nharrer/10Print-Smooth-Scroll/releases/download/rel_0.1/scroll-tmp.d64) contains TMP, the source code ```scroll2.asm``` and the final executable ```scroll2```.
+
+![Load scroll2](https://i.imgur.com/oZKBbCY.png)
